@@ -1,0 +1,78 @@
+/* General Styling for Larger Screens */
+@media (max-width: 1200px) {
+    #video_view {
+        width: 100%;
+    }
+    #video_suggestion {
+        width: 40%;
+    }
+    #video {
+        width: 70%;
+    }
+}
+
+/* Medium Screens (Tablets & Laptops) */
+@media (max-width: 1028px) {
+    #video {
+        width: 60%;
+    }
+    #height {
+        height: 80vh;
+    }
+}
+
+/* Small Screens (Tablets in Portrait Mode) */
+@media (max-width: 885px) {
+    #video_view {
+        flex-direction: column;
+        align-items: center;
+    }
+    #video,
+    #video_suggestion {
+        width: 95%;
+    }
+    #height {
+        height: 60vh;
+    }
+}
+
+/* Adjustments for Screens up to 1135px */
+@media (max-width: 1135px) {
+    #like-dislike {
+        flex-direction: column;
+    }
+    #flex {
+        margin-bottom: 0.7rem;
+        justify-content: space-between;
+    }
+    #three-dot {
+        display: none;
+    }
+    #flex2 {
+        justify-content: space-between;
+    }
+}
+
+/* Mobile View (Small Phones) */
+@media (max-width: 414px) {
+    #share-btn,
+    #download-btn {
+        font-size: 0.8rem;
+    }
+    #flex2 {
+        justify-content: space-between;
+    }
+}
+
+/* Adjust Headline Font Size */
+@media (max-width: 1040px) {
+    #head-des {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 440px) {
+    #head-des {
+        font-size: 0.8rem;
+    }
+}

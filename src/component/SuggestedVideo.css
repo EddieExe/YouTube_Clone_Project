@@ -1,0 +1,29 @@
+#suggested-video-id {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 884px) {
+    #suggested-video-id {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #suggested-img {
+        width: 100%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    #bottom-margin {
+        margin-bottom: 4rem;
+    }
+}
+
+/* Hover Effect */
+#suggested-img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}

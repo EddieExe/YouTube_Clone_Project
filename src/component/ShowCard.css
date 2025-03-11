@@ -1,0 +1,12 @@
+/* Styles for the image in the ShowCard component */
+#img-size {
+    height: 12.4rem;
+    width: 100%;
+}
+
+/* Responsive design: Adjust image height for smaller screens (max width: 419px) */
+@media (max-width: 419px) {
+    #img-size {
+        height: 10.3rem;
+    }
+}
