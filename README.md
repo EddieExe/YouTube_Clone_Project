@@ -1,6 +1,6 @@
 # YouTube Clone (MERN Stack)
 
-## GitHub Link: https://github.com/EddieExe/YouTube_Clone_Project
+### GitHub Link: https://github.com/EddieExe/YouTube_Clone_Project
 
 ## Overview
 This project is a full-stack YouTube Clone built using the **MERN (MongoDB, Express, React, Node.js) stack**. Users can browse, search, and watch videos, create channels, upload content, and interact with comments and likes.
